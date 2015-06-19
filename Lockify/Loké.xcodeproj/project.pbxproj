@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D4BA701B2B754400E246C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BA6F1B2B754400E246C8 /* main.m */; };
+		38D4BA731B2B754400E246C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BA721B2B754400E246C8 /* AppDelegate.m */; };
+		38D4BA791B2B754400E246C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D4BA771B2B754400E246C8 /* Main.storyboard */; };
+		38D4BA7B1B2B754400E246C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D4BA7A1B2B754400E246C8 /* Images.xcassets */; };
+		38D4BA7E1B2B754400E246C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D4BA7C1B2B754400E246C8 /* LaunchScreen.xib */; };
+		38D4BA8A1B2B754400E246C8 /* LockifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BA891B2B754400E246C8 /* LockifyTests.m */; };
+		38D4BA951B2B7A0400E246C8 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BA941B2B7A0400E246C8 /* LockViewController.m */; };
+		38D4BA981B2B7A5700E246C8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BA971B2B7A5700E246C8 /* BaseViewController.m */; };
+		38D4BA9A1B2B7B9B00E246C8 /* Zrzut ekranu 2015-06-12 o 22.41.44.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D4BA991B2B7B9B00E246C8 /* Zrzut ekranu 2015-06-12 o 22.41.44.png */; };
+		38D4BAA01B2B809700E246C8 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BA9F1B2B809700E246C8 /* BluetoothManager.m */; };
+		38D4BAA31B2D8C9800E246C8 /* BeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D4BAA21B2D8C9800E246C8 /* BeaconManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38D4BA841B2B754400E246C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D4BA621B2B754400E246C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D4BA691B2B754400E246C8;
+			remoteInfo = Lockify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38D4BA6A1B2B754400E246C8 /* Loké.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loké.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D4BA6E1B2B754400E246C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D4BA6F1B2B754400E246C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38D4BA711B2B754400E246C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38D4BA721B2B754400E246C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38D4BA781B2B754400E246C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38D4BA7A1B2B754400E246C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38D4BA7D1B2B754400E246C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38D4BA831B2B754400E246C8 /* LokéTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LokéTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D4BA881B2B754400E246C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D4BA891B2B754400E246C8 /* LockifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockifyTests.m; sourceTree = "<group>"; };
+		38D4BA931B2B7A0400E246C8 /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		38D4BA941B2B7A0400E246C8 /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		38D4BA961B2B7A5700E246C8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		38D4BA971B2B7A5700E246C8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		38D4BA991B2B7B9B00E246C8 /* Zrzut ekranu 2015-06-12 o 22.41.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zrzut ekranu 2015-06-12 o 22.41.44.png"; sourceTree = "<group>"; };
+		38D4BA9E1B2B809700E246C8 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		38D4BA9F1B2B809700E246C8 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		38D4BAA11B2D8C9800E246C8 /* BeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconManager.h; sourceTree = "<group>"; };
+		38D4BAA21B2D8C9800E246C8 /* BeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D4BA671B2B754400E246C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D4BA801B2B754400E246C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D4BA611B2B754400E246C8 = {
+			isa = PBXGroup;
+			children = (
+				38D4BA6C1B2B754400E246C8 /* Lockify */,
+				38D4BA861B2B754400E246C8 /* LockifyTests */,
+				38D4BA6B1B2B754400E246C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D4BA6B1B2B754400E246C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D4BA6A1B2B754400E246C8 /* Loké.app */,
+				38D4BA831B2B754400E246C8 /* LokéTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D4BA6C1B2B754400E246C8 /* Lockify */ = {
+			isa = PBXGroup;
+			children = (
+				38D4BA711B2B754400E246C8 /* AppDelegate.h */,
+				38D4BA721B2B754400E246C8 /* AppDelegate.m */,
+				38D4BA961B2B7A5700E246C8 /* BaseViewController.h */,
+				38D4BA971B2B7A5700E246C8 /* BaseViewController.m */,
+				38D4BA931B2B7A0400E246C8 /* LockViewController.h */,
+				38D4BA941B2B7A0400E246C8 /* LockViewController.m */,
+				38D4BA9E1B2B809700E246C8 /* BluetoothManager.h */,
+				38D4BA9F1B2B809700E246C8 /* BluetoothManager.m */,
+				38D4BAA11B2D8C9800E246C8 /* BeaconManager.h */,
+				38D4BAA21B2D8C9800E246C8 /* BeaconManager.m */,
+				38D4BA771B2B754400E246C8 /* Main.storyboard */,
+				38D4BA7A1B2B754400E246C8 /* Images.xcassets */,
+				38D4BA7C1B2B754400E246C8 /* LaunchScreen.xib */,
+				38D4BA6D1B2B754400E246C8 /* Supporting Files */,
+			);
+			path = Lockify;
+			sourceTree = "<group>";
+		};
+		38D4BA6D1B2B754400E246C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D4BA991B2B7B9B00E246C8 /* Zrzut ekranu 2015-06-12 o 22.41.44.png */,
+				38D4BA6E1B2B754400E246C8 /* Info.plist */,
+				38D4BA6F1B2B754400E246C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38D4BA861B2B754400E246C8 /* LockifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38D4BA891B2B754400E246C8 /* LockifyTests.m */,
+				38D4BA871B2B754400E246C8 /* Supporting Files */,
+			);
+			path = LockifyTests;
+			sourceTree = "<group>";
+		};
+		38D4BA871B2B754400E246C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D4BA881B2B754400E246C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D4BA691B2B754400E246C8 /* Loké */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D4BA8D1B2B754400E246C8 /* Build configuration list for PBXNativeTarget "Loké" */;
+			buildPhases = (
+				38D4BA661B2B754400E246C8 /* Sources */,
+				38D4BA671B2B754400E246C8 /* Frameworks */,
+				38D4BA681B2B754400E246C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loké";
+			productName = Lockify;
+			productReference = 38D4BA6A1B2B754400E246C8 /* Loké.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38D4BA821B2B754400E246C8 /* LokéTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D4BA901B2B754400E246C8 /* Build configuration list for PBXNativeTarget "LokéTests" */;
+			buildPhases = (
+				38D4BA7F1B2B754400E246C8 /* Sources */,
+				38D4BA801B2B754400E246C8 /* Frameworks */,
+				38D4BA811B2B754400E246C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D4BA851B2B754400E246C8 /* PBXTargetDependency */,
+			);
+			name = "LokéTests";
+			productName = LockifyTests;
+			productReference = 38D4BA831B2B754400E246C8 /* LokéTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D4BA621B2B754400E246C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lockify;
+				TargetAttributes = {
+					38D4BA691B2B754400E246C8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					38D4BA821B2B754400E246C8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 38D4BA691B2B754400E246C8;
+					};
+				};
+			};
+			buildConfigurationList = 38D4BA651B2B754400E246C8 /* Build configuration list for PBXProject "Loké" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38D4BA611B2B754400E246C8;
+			productRefGroup = 38D4BA6B1B2B754400E246C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D4BA691B2B754400E246C8 /* Loké */,
+				38D4BA821B2B754400E246C8 /* LokéTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D4BA681B2B754400E246C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D4BA791B2B754400E246C8 /* Main.storyboard in Resources */,
+				38D4BA9A1B2B7B9B00E246C8 /* Zrzut ekranu 2015-06-12 o 22.41.44.png in Resources */,
+				38D4BA7E1B2B754400E246C8 /* LaunchScreen.xib in Resources */,
+				38D4BA7B1B2B754400E246C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D4BA811B2B754400E246C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D4BA661B2B754400E246C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D4BA981B2B7A5700E246C8 /* BaseViewController.m in Sources */,
+				38D4BA731B2B754400E246C8 /* AppDelegate.m in Sources */,
+				38D4BA701B2B754400E246C8 /* main.m in Sources */,
+				38D4BAA31B2D8C9800E246C8 /* BeaconManager.m in Sources */,
+				38D4BAA01B2B809700E246C8 /* BluetoothManager.m in Sources */,
+				38D4BA951B2B7A0400E246C8 /* LockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D4BA7F1B2B754400E246C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D4BA8A1B2B754400E246C8 /* LockifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38D4BA851B2B754400E246C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38D4BA691B2B754400E246C8 /* Loké */;
+			targetProxy = 38D4BA841B2B754400E246C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38D4BA771B2B754400E246C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D4BA781B2B754400E246C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38D4BA7C1B2B754400E246C8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D4BA7D1B2B754400E246C8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D4BA8B1B2B754400E246C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38D4BA8C1B2B754400E246C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38D4BA8E1B2B754400E246C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lockify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Loké";
+			};
+			name = Debug;
+		};
+		38D4BA8F1B2B754400E246C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lockify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Loké";
+			};
+			name = Release;
+		};
+		38D4BA911B2B754400E246C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LockifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "LokéTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lockify.app/Lockify";
+			};
+			name = Debug;
+		};
+		38D4BA921B2B754400E246C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LockifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "LokéTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lockify.app/Lockify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D4BA651B2B754400E246C8 /* Build configuration list for PBXProject "Loké" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D4BA8B1B2B754400E246C8 /* Debug */,
+				38D4BA8C1B2B754400E246C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D4BA8D1B2B754400E246C8 /* Build configuration list for PBXNativeTarget "Loké" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D4BA8E1B2B754400E246C8 /* Debug */,
+				38D4BA8F1B2B754400E246C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D4BA901B2B754400E246C8 /* Build configuration list for PBXNativeTarget "LokéTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D4BA911B2B754400E246C8 /* Debug */,
+				38D4BA921B2B754400E246C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D4BA621B2B754400E246C8 /* Project object */;
+}
