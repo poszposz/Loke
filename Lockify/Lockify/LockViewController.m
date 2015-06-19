@@ -64,7 +64,6 @@
     [getApp().bluetoothManager unlockWithPassword:pass unlockCompletionHandler:^(BOOL success) {
         NSLog(@"Yaay, unlocked");
         [getApp().bluetoothManager writeAnything];
-        [getApp().bluetoothManager readSctracthc];
     }];
     [self.passwordDigits removeAllObjects];
 }

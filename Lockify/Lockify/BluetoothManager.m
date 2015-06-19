@@ -19,9 +19,7 @@ static NSString *charcteristic_UUID2 = @"A495FF22-C5B1-4B44-B512-1370F02D74DE";
 @property (nonatomic, strong) CBCharacteristic *characteristicDebug;
 
 @property (nonatomic, copy) void(^completionHandler)(NSError *eror);
-@property (nonatomic, copy) void(^setupHandler)(BOOL setup);
 
-@property (nonatomic, copy) void(^lockHandler)(BOOL success);
 @property (nonatomic, copy) void(^unlockHandler)(BOOL success);
 
 @end
@@ -171,27 +169,12 @@ static NSString *charcteristic_UUID2 = @"A495FF22-C5B1-4B44-B512-1370F02D74DE";
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error {
     
     NSData *data = characteristic.value;
-    NSLog(@"%@", characteristic.value);
-    if (data.length == 10) {
-        // not logged
-        if (self.setupHandler) {
-            self.setupHandler(NO);
-        }
-    }
-    else {
-        // logged
-        if (self.setupHandler) {
-            self.setupHandler(YES);
-        }
-    }
+    NSLog(@"%@", data);
 }
 
 - (void)peripheral:(CBPeripheral *)peripheral didWriteValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error {
 
     NSLog(@"%@", characteristic.value);
-    if (self.lockHandler) {
-        self.lockHandler(YES);
-    }
     if (self.unlockHandler) {
         self.unlockHandler(YES);
     }
@@ -205,13 +188,6 @@ static NSString *charcteristic_UUID2 = @"A495FF22-C5B1-4B44-B512-1370F02D74DE";
     
     NSData *data = [self dataFromHexString:@"a"];
     [self.peripheral writeValue:data forCharacteristic:self.characteristic type:CBCharacteristicWriteWithoutResponse];
-}
-
-- (void)lockWithPassword:(NSString *)password lockCompletionHandler:(void (^)(BOOL))lockHandler {
-    
-    self.lockHandler = lockHandler;
-    NSData *data = [password dataUsingEncoding:NSUTF8StringEncoding];
-    [self.peripheral writeValue:data forCharacteristic:self.characteristic type:CBCharacteristicWriteWithResponse];
 }
 
 - (void)unlockWithPassword:(NSString *)password unlockCompletionHandler:(void (^)(BOOL))unlockHandler {

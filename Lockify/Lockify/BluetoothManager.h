@@ -17,9 +17,7 @@
 
 - (void)connectLockWithCompletionHandler:(void(^)(NSError *error))completionHandler;
 
-- (void)lockWithPassword:(NSString *)password lockCompletionHandler:(void(^)(BOOL success))lockHandler;
 - (void)unlockWithPassword:(NSString *)password unlockCompletionHandler:(void(^)(BOOL success))unlockHandler;
-- (void)readSctracthc;
 - (void)writeAnything;
 
 @end
