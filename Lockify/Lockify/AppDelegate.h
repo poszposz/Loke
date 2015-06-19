@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BluetoothManager.h"
+#import "BeaconManager.h"
 
 static NSString *passwordKey = @"password";
 
@@ -15,6 +16,7 @@ static NSString *passwordKey = @"password";
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) BluetoothManager *bluetoothManager;
+@property (strong, nonatomic) BeaconManager *beaconManager;
 
 @end
 

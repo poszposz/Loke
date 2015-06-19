@@ -19,6 +19,15 @@
     
     self.bluetoothManager = [[BluetoothManager alloc] init];
     
+    self.beaconManager = [[BeaconManager alloc] init];
+    [self.beaconManager loadManager];
+    
+    if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)])
+    {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
+    }
+    
     return YES;
 }
 
